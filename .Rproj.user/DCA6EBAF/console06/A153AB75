@@ -1,0 +1,1621 @@
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ [K]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote add origin https://github.com/dads2busy/bd_d2b.git
+fatal: remote origin already exists.
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'http://root@sdad.policy-analytics.net:30080/sdad/rural_broadband.git'
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git origin
+git: 'origin' is not a git command. See 'git --help'.
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git origin -v
+git: 'origin' is not a git command. See 'git --help'.
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git origin -v[C[K[K[K[Kn- originv origin[C origin
+bash: git-v: command not found
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git-v  origin[C[1@ 
+Unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote origin
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote origin-originvorigin origin
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote -v origin[K[K[K[K[K[K
+origin	http://root@sdad.policy-analytics.net:30080/sdad/rural_broadband.git (fetch)
+origin	http://root@sdad.policy-analytics.net:30080/sdad/rural_broadband.git (push)
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote remove origin
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote remove origin-v [K
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote -v remove origin-v [Korigin[3Porigin[3P-v [C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C origin -v[Kpush -u origin masterremote add origin https://github.com/dads2busy/bd_d2b.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdf -h[Kocker pssudo systemctl status apache2docker ps[K[4Pf -hgit remote add origin https://github.com/dads2busy/bd_d2b.git
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote add origin https://github.com/dads2busy/bd_d2b.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-v [Kremove origin-v [Korigin[3Porigin[3P-v [C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C origin -v[Kpush -u origin masterremote add origin https://github.com/dads2busy/bd_d2b.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Ppush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/dads2busy/bd_d2b.git'
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git add -A .
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   bd_d2b.Rproj[m
+	[32mnew file:   config.toml[m
+	[32mnew file:   config/_default/languages.toml[m
+	[32mnew file:   config/_default/menus.toml[m
+	[32mnew file:   config/_default/params.toml[m
+	[32mnew file:   content/authors/admin/_index.md[m
+	[32mnew file:   content/authors/admin/avatar.jpg[m
+	[32mnew file:   content/courses/_index.md[m
+	[32mnew file:   content/courses/example/_index.md[m
+	[32mnew file:   content/courses/example/example1.md[m
+	[32mnew file:   content/courses/example/example2.md[m
+	[32mnew file:   content/home/about.md[m
+	[32mnew file:   content/home/accomplishments.md[m
+	[32mnew file:   content/home/contact.md[m
+	[32mnew file:   content/home/demo.md[m
+	[32mnew file:   content/home/experience.md[m
+	[32mnew file:   content/home/featured.md[m
+	[32mnew file:   content/home/gallery/gallery/theme-1950s.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-apogee.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-coffee-playfair.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-dark.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-default.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-forest.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-ocean.png[m
+	[32mnew file:   content/home/gallery/gallery/theme-strawberry.png[m
+	[32mnew file:   content/home/gallery/index.md[m
+	[32mnew file:   content/home/hero.md[m
+	[32mnew file:   content/home/index.md[m
+	[32mnew file:   content/home/people.md[m
+	[32mnew file:   content/home/posts.md[m
+	[32mnew file:   content/home/projects.md[m
+	[32mnew file:   content/home/publications.md[m
+	[32mnew file:   content/home/skills.md[m
+	[32mnew file:   content/home/slider.md[m
+	[32mnew file:   content/home/tags.md[m
+	[32mnew file:   content/home/talks.md[m
+	[32mnew file:   content/post/2015-07-23-r-rmarkdown.Rmd[m
+	[32mnew file:   content/post/2015-07-23-r-rmarkdown.html[m
+	[32mnew file:   content/post/_index.md[m
+	[32mnew file:   content/post/getting-started/featured.jpg[m
+	[32mnew file:   content/post/getting-started/index.md[m
+	[32mnew file:   content/post/jupyter/featured.png[m
+	[32mnew file:   content/post/jupyter/index.ipynb[m
+	[32mnew file:   content/post/jupyter/index.md[m
+	[32mnew file:   content/post/jupyter/index_1_0.png[m
+	[32mnew file:   content/post/writing-technical-content/featured.jpg[m
+	[32mnew file:   content/post/writing-technical-content/index.md[m
+	[32mnew file:   content/privacy.md[m
+	[32mnew file:   content/project/external-project/featured.jpg[m
+	[32mnew file:   content/project/external-project/index.md[m
+	[32mnew file:   content/project/internal-project/featured.jpg[m
+	[32mnew file:   content/project/internal-project/index.md[m
+	[32mnew file:   content/publication/_index.md[m
+	[32mnew file:   content/publication/conference-paper/cite.bib[m
+	[32mnew file:   content/publication/conference-paper/featured.jpg[m
+	[32mnew file:   content/publication/conference-paper/index.md[m
+	[32mnew file:   content/publication/journal-article/cite.bib[m
+	[32mnew file:   content/publication/journal-article/featured.jpg[m
+	[32mnew file:   content/publication/journal-article/index.md[m
+	[32mnew file:   content/publication/preprint/featured.jpg[m
+	[32mnew file:   content/publication/preprint/index.md[m
+	[32mnew file:   content/slides/example/index.md[m
+	[32mnew file:   content/talk/_index.md[m
+	[32mnew file:   content/talk/example/featured.jpg[m
+	[32mnew file:   content/talk/example/index.md[m
+	[32mnew file:   content/terms.md[m
+	[32mnew file:   index.Rmd[m
+	[32mnew file:   public/404.html[m
+	[32mnew file:   public/authors/admin/avatar.jpg[m
+	[32mnew file:   public/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg[m
+	[32mnew file:   public/authors/admin/index.html[m
+	[32mnew file:   public/authors/admin/index.xml[m
+	[32mnew file:   public/authors/index.html[m
+	[32mnew file:   public/authors/index.xml[m
+	[32mnew file:   public/authors/page/1/index.html[m
+	[32mnew file:   public/authors/robert-ford/index.html[m
+	[32mnew file:   public/authors/robert-ford/index.xml[m
+	[32mnew file:   public/categories/demo/index.html[m
+	[32mnew file:   public/categories/demo/index.xml[m
+	[32mnew file:   public/categories/demo/page/1/index.html[m
+	[32mnew file:   public/categories/index.html[m
+	[32mnew file:   public/categories/index.xml[m
+	[32mnew file:   public/categories/page/1/index.html[m
+	[32mnew file:   public/categories/r/index.html[m
+	[32mnew file:   public/categories/r/index.xml[m
+	[32mnew file:   public/categories/r/page/1/index.html[m
+	[32mnew file:   public/courses/example/example1/index.html[m
+	[32mnew file:   public/courses/example/example2/index.html[m
+	[32mnew file:   public/courses/example/index.html[m
+	[32mnew file:   public/courses/example/index.xml[m
+	[32mnew file:   public/courses/index.html[m
+	[32mnew file:   public/courses/index.xml[m
+	[32mnew file:   public/css/academic.css[m
+	[32mnew file:   public/css/reveal_custom.min.css[m
+	[32mnew file:   public/home/gallery/gallery/theme-1950s.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-apogee.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-coffee-playfair.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-dark.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-default.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-forest.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-ocean.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-strawberry.png[m
+	[32mnew file:   public/home/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png[m
+	[32mnew file:   public/img/boards.jpg[m
+	[32mnew file:   public/img/headers/bubbles-wide.jpg[m
+	[32mnew file:   public/img/hero-academic.png[m
+	[32mnew file:   public/img/icon-192.png[m
+	[32mnew file:   public/img/icon-32.png[m
+	[32mnew file:   public/img/icon-512.png[m
+	[32mnew file:   public/index.html[m
+	[32mnew file:   public/index.json[m
+	[32mnew file:   public/index.webmanifest[m
+	[32mnew file:   public/index.xml[m
+	[32mnew file:   public/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js[m
+	[32mnew file:   public/js/mathjax-config.js[m
+	[32mnew file:   public/js/vendor/reveal.js/plugin/notes/notes.html[m
+	[32mnew file:   public/js/vendor/reveal.js/plugin/notes/notes.js[m
+	[32mnew file:   public/post/2015-07-23-r-rmarkdown/index.html[m
+	[32mnew file:   public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png[m
+	[32mnew file:   public/post/getting-started/featured.jpg[m
+	[32mnew file:   public/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1200x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/post/getting-started/index.html[m
+	[32mnew file:   public/post/index.html[m
+	[32mnew file:   public/post/index.xml[m
+	[32mnew file:   public/post/jupyter/featured.png[m
+	[32mnew file:   public/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_lanczos_2.png[m
+	[32mnew file:   public/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_2.png[m
+	[32mnew file:   public/post/jupyter/index.html[m
+	[32mnew file:   public/post/jupyter/index_1_0.png[m
+	[32mnew file:   public/post/page/1/index.html[m
+	[32mnew file:   public/post/writing-technical-content/featured.jpg[m
+	[32mnew file:   public/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_2560x2560_fit_q90_lanczos.jpg[m
+	[32mnew file:   public/post/writing-technical-content/index.html[m
+	[32mnew file:   public/privacy/index.html[m
+	[32mnew file:   public/project/external-project/featured.jpg[m
+	[32mnew file:   public/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/project/external-project/index.html[m
+	[32mnew file:   public/project/index.html[m
+	[32mnew file:   public/project/index.xml[m
+	[32mnew file:   public/project/internal-project/featured.jpg[m
+	[32mnew file:   public/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/project/internal-project/index.html[m
+	[32mnew file:   public/project/page/1/index.html[m
+	[32mnew file:   public/publication/conference-paper/cite.bib[m
+	[32mnew file:   public/publication/conference-paper/featured.jpg[m
+	[32mnew file:   public/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_lanczos_smart1.jpg[m
+	[32mnew file:   public/publication/conference-paper/index.html[m
+	[32mnew file:   public/publication/index.html[m
+	[32mnew file:   public/publication/index.xml[m
+	[32mnew file:   public/publication/journal-article/cite.bib[m
+	[32mnew file:   public/publication/journal-article/featured.jpg[m
+	[32mnew file:   public/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/publication/journal-article/index.html[m
+	[32mnew file:   public/publication/preprint/featured.jpg[m
+	[32mnew file:   public/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/publication/preprint/index.html[m
+	[32mnew file:   public/publication_types/1/index.html[m
+	[32mnew file:   public/publication_types/1/index.xml[m
+	[32mnew file:   public/publication_types/1/page/1/index.html[m
+	[32mnew file:   public/publication_types/2/index.html[m
+	[32mnew file:   public/publication_types/2/index.xml[m
+	[32mnew file:   public/publication_types/2/page/1/index.html[m
+	[32mnew file:   public/publication_types/3/index.html[m
+	[32mnew file:   public/publication_types/3/index.xml[m
+	[32mnew file:   public/publication_types/3/page/1/index.html[m
+	[32mnew file:   public/publication_types/index.html[m
+	[32mnew file:   public/publication_types/index.xml[m
+	[32mnew file:   public/publication_types/page/1/index.html[m
+	[32mnew file:   public/sitemap.xml[m
+	[32mnew file:   public/slides/example/index.html[m
+	[32mnew file:   public/slides/index.xml[m
+	[32mnew file:   public/tags/academic/index.html[m
+	[32mnew file:   public/tags/academic/index.xml[m
+	[32mnew file:   public/tags/academic/page/1/index.html[m
+	[32mnew file:   public/tags/deep-learning/index.html[m
+	[32mnew file:   public/tags/deep-learning/index.xml[m
+	[32mnew file:   public/tags/deep-learning/page/1/index.html[m
+	[32mnew file:   public/tags/demo/index.html[m
+	[32mnew file:   public/tags/demo/index.xml[m
+	[32mnew file:   public/tags/demo/page/1/index.html[m
+	[32mnew file:   public/tags/index.html[m
+	[32mnew file:   public/tags/index.xml[m
+	[32mnew file:   public/tags/page/1/index.html[m
+	[32mnew file:   public/tags/plot/index.html[m
+	[32mnew file:   public/tags/plot/index.xml[m
+	[32mnew file:   public/tags/plot/page/1/index.html[m
+	[32mnew file:   public/tags/r-markdown/index.html[m
+	[32mnew file:   public/tags/r-markdown/index.xml[m
+	[32mnew file:   public/tags/r-markdown/page/1/index.html[m
+	[32mnew file:   public/tags/regression/index.html[m
+	[32mnew file:   public/tags/regression/index.xml[m
+	[32mnew file:   public/tags/regression/page/1/index.html[m
+	[32mnew file:   public/tags/source-themes/index.html[m
+	[32mnew file:   public/tags/source-themes/index.xml[m
+	[32mnew file:   public/tags/source-themes/page/1/index.html[m
+	[32mnew file:   public/talk/example/featured.jpg[m
+	[32mnew file:   public/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   public/talk/example/index.html[m
+	[32mnew file:   public/talk/index.html[m
+	[32mnew file:   public/talk/index.xml[m
+	[32mnew file:   public/terms/index.html[m
+	[32mnew file:   resources/_gen/assets/scss/scss/main.scss_6c95cc1249b26b124274204dbf970c34.content[m
+	[32mnew file:   resources/_gen/assets/scss/scss/main.scss_6c95cc1249b26b124274204dbf970c34.json[m
+	[32mnew file:   resources/_gen/images/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg[m
+	[32mnew file:   resources/_gen/images/authors/admin2/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/home/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1200x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_2.png[m
+	[32mnew file:   resources/_gen/images/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_2560x2560_fit_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_lanczos_smart1.jpg[m
+	[32mnew file:   resources/_gen/images/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   resources/_gen/images/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q90_lanczos.jpg[m
+	[32mnew file:   static/img/boards.jpg[m
+	[32mnew file:   static/img/headers/bubbles-wide.jpg[m
+	[32mnew file:   static/img/hero-academic.png[m
+	[32mnew file:   static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png[m
+	[32mnew file:   themes/hugo-academic/.editorconfig[m
+	[32mnew file:   themes/hugo-academic/.github/FUNDING.yml[m
+	[32mnew file:   themes/hugo-academic/.github/ISSUE_TEMPLATE/bug-report.md[m
+	[32mnew file:   themes/hugo-academic/.github/ISSUE_TEMPLATE/feature-request.md[m
+	[32mnew file:   themes/hugo-academic/.github/PULL_REQUEST_TEMPLATE.md[m
+	[32mnew file:   themes/hugo-academic/.github/contributing.md[m
+	[32mnew file:   themes/hugo-academic/.github/stale.yml[m
+	[32mnew file:   themes/hugo-academic/.github/support.md[m
+	[32mnew file:   themes/hugo-academic/.gitignore[m
+	[32mnew file:   themes/hugo-academic/LICENSE.md[m
+	[32mnew file:   themes/hugo-academic/README.md[m
+	[32mnew file:   themes/hugo-academic/academic.png[m
+	[32mnew file:   themes/hugo-academic/archetypes/default.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/docs.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/home.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/post/index.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/project/index.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/publication/index.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/slides/index.md[m
+	[32mnew file:   themes/hugo-academic/archetypes/talk/index.md[m
+	[32mnew file:   themes/hugo-academic/assets/css/reveal.css[m
+	[32mnew file:   themes/hugo-academic/assets/css/reveal_custom.css[m
+	[32mnew file:   themes/hugo-academic/assets/js/academic-search.js[m
+	[32mnew file:   themes/hugo-academic/assets/js/academic.js[m
+	[32mnew file:   themes/hugo-academic/assets/js/algolia-search.js[m
+	[32mnew file:   themes/hugo-academic/assets/js/mathjax-config.js[m
+	[32mnew file:   themes/hugo-academic/assets/js/vendor/bootstrap.min.js[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_card.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_content.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_dark.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_docs.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_integrations.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_listings.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_nav.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_root.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_search.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/_widgets.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/academic/academic.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/bootstrap_variables.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/custom.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/main.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_alert.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_badge.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_breadcrumb.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_button-group.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_buttons.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_card.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_carousel.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_close.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_code.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_custom-forms.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_dropdown.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_forms.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_functions.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_grid.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_images.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_input-group.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_jumbotron.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_list-group.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_media.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_mixins.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_modal.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_nav.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_navbar.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_pagination.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_popover.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_print.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_progress.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_reboot.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_root.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_spinners.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_tables.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_toasts.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_tooltip.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_transitions.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_type.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_utilities.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/_variables.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/bootstrap-grid.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/bootstrap-reboot.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/bootstrap.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_alert.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_background-variant.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_badge.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_border-radius.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_box-shadow.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_breakpoints.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_buttons.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_caret.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_clearfix.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_deprecate.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_float.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_forms.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_gradients.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_grid-framework.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_grid.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_hover.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_image.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_list-group.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_lists.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_nav-divider.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_pagination.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_reset-text.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_resize.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_screen-reader.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_size.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_table-row.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_text-emphasis.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_text-hide.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_text-truncate.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_transition.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_visibility.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_align.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_background.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_borders.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_clearfix.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_display.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_embed.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_flex.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_float.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_overflow.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_position.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_screenreaders.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_shadows.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_sizing.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_spacing.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_stretched-link.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_text.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_visibility.scss[m
+	[32mnew file:   themes/hugo-academic/assets/scss/vendor/bootstrap/vendor/_rfs.scss[m
+	[32mnew file:   themes/hugo-academic/data/academic.toml[m
+	[32mnew file:   themes/hugo-academic/data/assets.toml[m
+	[32mnew file:   themes/hugo-academic/data/fonts/classic.toml[m
+	[32mnew file:   themes/hugo-academic/data/fonts/minimal.toml[m
+	[32mnew file:   themes/hugo-academic/data/fonts/mr_robot.toml[m
+	[32mnew file:   themes/hugo-academic/data/fonts/rose.toml[m
+	[32mnew file:   themes/hugo-academic/data/i18n/languages.yaml[m
+	[32mnew file:   themes/hugo-academic/data/page_sharer.toml[m
+	[32mnew file:   themes/hugo-academic/data/publication_types.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/1950s.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/apogee.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/coffee.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/dark.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/forest.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/minimal.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/mr_robot.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/ocean.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/rose.toml[m
+	[32mnew file:   themes/hugo-academic/data/themes/strawberry.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/config.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/languages.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/menus.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/config/_default/params.toml[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/authors/admin/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/authors/admin/avatar.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/courses/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/courses/example/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/courses/example/example1.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/courses/example/example2.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/about.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/accomplishments.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/contact.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/demo.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/experience.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/featured.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-1950s.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-apogee.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-coffee-playfair.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-dark.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-default.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-forest.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-ocean.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-strawberry.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/gallery/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/hero.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/people.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/posts.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/projects.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/publications.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/skills.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/slider.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/tags.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/home/talks.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/getting-started/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/featured.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/index.ipynb[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/jupyter/index_1_0.png[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/writing-technical-content/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/post/writing-technical-content/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/privacy.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/external-project/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/external-project/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/internal-project/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/project/internal-project/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/conference-paper/cite.bib[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/conference-paper/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/conference-paper/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/journal-article/cite.bib[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/journal-article/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/journal-article/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/preprint/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/publication/preprint/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/slides/example/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/talk/_index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/talk/example/featured.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/talk/example/index.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/content/terms.md[m
+	[32mnew file:   themes/hugo-academic/exampleSite/static/img/boards.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/static/img/headers/bubbles-wide.jpg[m
+	[32mnew file:   themes/hugo-academic/exampleSite/static/img/hero-academic.png[m
+	[32mnew file:   themes/hugo-academic/i18n/ca.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/da.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/de.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/el.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/en.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/es.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/eu.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/fr.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/hu.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/id.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/it.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/ja.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/ko.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/nl.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/pl.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/pt.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/ro.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/ru.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/tr.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/vi.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/zh-Hant.yaml[m
+	[32mnew file:   themes/hugo-academic/i18n/zh.yaml[m
+	[32mnew file:   themes/hugo-academic/images/screenshot.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-1950s.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-apogee.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-coffee-playfair.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-cupcake.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-dark.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-default.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-forest.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-ocean.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-spacer.png[m
+	[32mnew file:   themes/hugo-academic/images/theme-strawberry.png[m
+	[32mnew file:   themes/hugo-academic/images/themes.png[m
+	[32mnew file:   themes/hugo-academic/images/tn.png[m
+	[32mnew file:   themes/hugo-academic/layouts/404.html[m
+	[32mnew file:   themes/hugo-academic/layouts/_default/baseof.html[m
+	[32mnew file:   themes/hugo-academic/layouts/_default/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/_default/rss.xml[m
+	[32mnew file:   themes/hugo-academic/layouts/_default/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/authors/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/authors/terms.html[m
+	[32mnew file:   themes/hugo-academic/layouts/docs/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/docs/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/index.html[m
+	[32mnew file:   themes/hugo-academic/layouts/index.json[m
+	[32mnew file:   themes/hugo-academic/layouts/index.webmanifest[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/citation.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/comments.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/comments/commento.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/comments/disqus.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/cookie_consent.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/custom_head.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/custom_js.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/docs_layout.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/docs_sidebar.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/docs_toc_foot.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/functions/get_address.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/functions/get_author_name.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/functions/get_event_dates.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/functions/get_pub_types.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/functions/parse_theme.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/jsonld/article.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/jsonld/business.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/jsonld/event.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/jsonld/main.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/jsonld/website.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_card.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_citation.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_compact.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/li_list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/marketing/google_analytics.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/marketing/google_tag_manager.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/navbar.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_author.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_edit.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_footer.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_header.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_links.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_links_div.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_metadata.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/page_metadata_authors.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/pagination.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/portfolio_li_card.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/portfolio_li_compact.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/portfolio_li_list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/portfolio_li_showcase.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/search.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/section_pager.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/share.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/site_footer.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/site_head.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/site_js.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/slides.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/social_links.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/tags.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widget_page.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/about.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/accomplishments.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/blank.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/contact.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/experience.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/featured.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/featurette.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/hero.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/pages.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/people.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/portfolio.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/slider.html[m
+	[32mnew file:   themes/hugo-academic/layouts/partials/widgets/tag_cloud.html[m
+	[32mnew file:   themes/hugo-academic/layouts/project/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/publication/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/section/docs.html[m
+	[32mnew file:   themes/hugo-academic/layouts/section/post.html[m
+	[32mnew file:   themes/hugo-academic/layouts/section/publication.html[m
+	[32mnew file:   themes/hugo-academic/layouts/section/talk.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/alert.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/diagram.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/figure.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/fragment.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/gallery.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/gdocs.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/hl.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/list_categories.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/list_tags.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/mention.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/slide.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/speaker_note.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/staticref.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/toc.html[m
+	[32mnew file:   themes/hugo-academic/layouts/shortcodes/video.html[m
+	[32mnew file:   themes/hugo-academic/layouts/slides/baseof.html[m
+	[32mnew file:   themes/hugo-academic/layouts/slides/list.html[m
+	[32mnew file:   themes/hugo-academic/layouts/slides/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/talk/single.html[m
+	[32mnew file:   themes/hugo-academic/layouts/widget_page/single.html[m
+	[32mnew file:   themes/hugo-academic/netlify.toml[m
+	[32mnew file:   themes/hugo-academic/package-lock.json[m
+	[32mnew file:   themes/hugo-academic/package.json[m
+	[32mnew file:   themes/hugo-academic/scripts/list_language_packs.py[m
+	[32mnew file:   themes/hugo-academic/scripts/sync_i18n.py[m
+	[32mnew file:   themes/hugo-academic/scripts/update_bootstrap.sh[m
+	[32mnew file:   themes/hugo-academic/scripts/view_demo.sh[m
+	[32mnew file:   themes/hugo-academic/static/img/icon-192.png[m
+	[32mnew file:   themes/hugo-academic/static/img/icon-32.png[m
+	[32mnew file:   themes/hugo-academic/static/img/icon-512.png[m
+	[32mnew file:   themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.html[m
+	[32mnew file:   themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.js[m
+	[32mnew file:   themes/hugo-academic/theme.toml[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../../.Renviron[m
+	[31m../../.Rprofile[m
+	[31m../../.Rprofile_old[m
+	[31m../../.Xauthority[m
+	[31m../../.bash_history[m
+	[31m../../.bash_logout[m
+	[31m../../.bash_profile[m
+	[31m../../.bashrc[m
+	[31m../../.boto[m
+	[31m../../.cache/[m
+	[31m../../.cloud-locale-test.skip[m
+	[31m../../.conda/[m
+	[31m../../.condarc[m
+	[31m../../.config/[m
+	[31m../../.docker/[m
+	[31m../../.gitconfig[m
+	[31m../../.gitignore[m
+	[31m../../.globus.cfg[m
+	[31m../../.globusonline/[m
+	[31m../../.gsutil/[m
+	[31m../../.ipynb_checkpoints/[m
+	[31m../../.ipython/[m
+	[31m../../.jupyter/[m
+	[31m../../.kube/[m
+	[31m../../.links2/[m
+	[31m../../.local/[m
+	[31m../../.odbc.ini[m
+	[31m../../.parallel/[m
+	[31m../../.profile[m
+	[31m../../.psql_history[m
+	[31m../../.rstudio/[m
+	[31m../../.ssh/[m
+	[31m../../.sudo_as_admin_successful[m
+	[31m../../.texlive2017/[m
+	[31m../../.viminfo[m
+	[31m../../Common Land Units.ipynb[m
+	[31m../../R/[m
+	[31m../../bin/[m
+	[31m../../environments/[m
+	[31m../2019MBDSS/[m
+	[31m../ButtonsInDataTable/[m
+	[31m../CLD3ProcessesPlatforms/[m
+	[31m../ChildCareLicensingScraper/[m
+	[31m../FSSDC/[m
+	[31m../OSS-Universe/[m
+	[31m../QA_for_Admin_Data/[m
+	[31m../SAFRLink-Crypto/[m
+	[31m../SAFRLink-DataAdapter/[m
+	[31m../SAFRLink-Identity/[m
+	[31m../SAFR_Link/[m
+	[31m../SQLServerFunctions/[m
+	[31m../SecureJaroWinkler/[m
+	[31m../ShinyStudio/[m
+	[31m../VLDS_Data_Quality/[m
+	[31m../Water-Quality-Data-Analysis-Tool/[m
+	[31m../acpd/[m
+	[31m../annamaria/[m
+	[31m../ari_base_char/[m
+	[31m../ari_base_dash/[m
+	[31m../ari_social_media/[m
+	[31m../blogdown_dads2busy/[m
+	[31m../business_innovation/[m
+	[31m../caret/[m
+	[31m../construct_wiki/[m
+	[31m../coordination-game/[m
+	[31m../crud/[m
+	[31m../dads2busy.github.io/[m
+	[31m../dashboard/[m
+	[31m../dashboard_tutorial/[m
+	[31m../data_table_tutorial/[m
+	[31m../dataplumbr/[m
+	[31m../dataset_metadata/[m
+	[31m../dbmanagr/[m
+	[31m../delivery_point_validation/[m
+	[31m../dhs_link_char/[m
+	[31m../docker_images/[m
+	[31m../docker_sdad/[m
+	[31m../dockerimages/[m
+	[31m../dod_ili/[m
+	[31m../dotfiles/[m
+	[31m../dspg19broadband/[m
+	[31m../dspg19fairfax/[m
+	[31m../dspg2019/[m
+	[31m../examples/[m
+	[31m../ffx_obesity/[m
+	[31m../getGoogle/[m
+	[31m../ghtorrent.org/[m
+	[31m../graphql_github/[m
+	[31m../gridR/[m
+	[31m../hugo_test/[m
+	[31m../iarpa_embers/[m
+	[31m../infrastructure.wiki/[m
+	[31m../infrastructure/[m
+	[31m../isu_data_integration/[m
+	[31m../iterative_proportional_fitting/[m
+	[31m../jupyterhub-docker/[m
+	[31m../kubectl-deployment-demo/[m
+	[31m../minerva_sdad/[m
+	[31m../neh_army_survey_parsing/[m
+	[31m../nsf_edgar/[m
+	[31m../opencpu_service_ci_tutorial/[m
+	[31m../oss/[m
+	[31m../oss2/[m
+	[31m../plumber/[m
+	[31m../presentation_template_LaTeX/[m
+	[31m../probabilistic_record_linkage/[m
+	[31m../psql/[m
+	[31m../publicrd/[m
+	[31m../repurposing_data/[m
+	[31m../rspatial_workshop/[m
+	[31m../rural_broadband/[m
+	[31m../rusps/[m
+	[31m../safr/[m
+	[31m../scratchpad/[m
+	[31m../sdad-data/[m
+	[31m../sdad-servers/[m
+	[31m../sdad_lexicon/[m
+	[31m../sdad_website/[m
+	[31m../sdal_data/[m
+	[31m../sdalr/[m
+	[31m../sec_codes.git/[m
+	[31m../securejarowinkler/[m
+	[31m../smartconnectedcommunities/[m
+	[31m../spatial_sf_intro/[m
+	[31m../sql-server-functions/[m
+	[31m../sql_r_introduction/[m
+	[31m../stem_edu/[m
+	[31m../stw-shinyapp/[m
+	[31m../stw.golem/[m
+	[31m../subcon_loc_afford_idx/[m
+	[31m../super-simple-sampler/[m
+	[31m../system-utils/[m
+	[31m../training_dspg2019/[m
+	[31m../uva-bi-sdad.github.io/[m
+	[31m../vcedash/[m
+	[31m../vecf_counts/[m
+	[31m../vecf_counts_old/[m
+	[31m../vlds_dq/[m
+	[31m../vt_metrics/[m
+	[31m../../globusconnectpersonal-2.3.9/[m
+	[31m../../rstudio/[m
+	[31m../../vols[m
+
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git commit -m "first commit"
+[master (root-commit) 29f4597] first commit
+ 616 files changed, 64611 insertions(+)
+ create mode 100644 git/bd_d2b/bd_d2b.Rproj
+ create mode 100644 git/bd_d2b/config.toml
+ create mode 100644 git/bd_d2b/config/_default/languages.toml
+ create mode 100644 git/bd_d2b/config/_default/menus.toml
+ create mode 100644 git/bd_d2b/config/_default/params.toml
+ create mode 100644 git/bd_d2b/content/authors/admin/_index.md
+ create mode 100644 git/bd_d2b/content/authors/admin/avatar.jpg
+ create mode 100644 git/bd_d2b/content/courses/_index.md
+ create mode 100644 git/bd_d2b/content/courses/example/_index.md
+ create mode 100644 git/bd_d2b/content/courses/example/example1.md
+ create mode 100644 git/bd_d2b/content/courses/example/example2.md
+ create mode 100644 git/bd_d2b/content/home/about.md
+ create mode 100644 git/bd_d2b/content/home/accomplishments.md
+ create mode 100644 git/bd_d2b/content/home/contact.md
+ create mode 100644 git/bd_d2b/content/home/demo.md
+ create mode 100644 git/bd_d2b/content/home/experience.md
+ create mode 100644 git/bd_d2b/content/home/featured.md
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-1950s.png
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-apogee.png
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-coffee-playfair.png
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-dark.png
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-default.png
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-forest.png
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-ocean.png
+ create mode 100644 git/bd_d2b/content/home/gallery/gallery/theme-strawberry.png
+ create mode 100644 git/bd_d2b/content/home/gallery/index.md
+ create mode 100644 git/bd_d2b/content/home/hero.md
+ create mode 100644 git/bd_d2b/content/home/index.md
+ create mode 100644 git/bd_d2b/content/home/people.md
+ create mode 100644 git/bd_d2b/content/home/posts.md
+ create mode 100644 git/bd_d2b/content/home/projects.md
+ create mode 100644 git/bd_d2b/content/home/publications.md
+ create mode 100644 git/bd_d2b/content/home/skills.md
+ create mode 100644 git/bd_d2b/content/home/slider.md
+ create mode 100644 git/bd_d2b/content/home/tags.md
+ create mode 100644 git/bd_d2b/content/home/talks.md
+ create mode 100644 git/bd_d2b/content/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 git/bd_d2b/content/post/2015-07-23-r-rmarkdown.html
+ create mode 100644 git/bd_d2b/content/post/_index.md
+ create mode 100644 git/bd_d2b/content/post/getting-started/featured.jpg
+ create mode 100644 git/bd_d2b/content/post/getting-started/index.md
+ create mode 100644 git/bd_d2b/content/post/jupyter/featured.png
+ create mode 100644 git/bd_d2b/content/post/jupyter/index.ipynb
+ create mode 100644 git/bd_d2b/content/post/jupyter/index.md
+ create mode 100644 git/bd_d2b/content/post/jupyter/index_1_0.png
+ create mode 100644 git/bd_d2b/content/post/writing-technical-content/featured.jpg
+ create mode 100644 git/bd_d2b/content/post/writing-technical-content/index.md
+ create mode 100644 git/bd_d2b/content/privacy.md
+ create mode 100644 git/bd_d2b/content/project/external-project/featured.jpg
+ create mode 100644 git/bd_d2b/content/project/external-project/index.md
+ create mode 100644 git/bd_d2b/content/project/internal-project/featured.jpg
+ create mode 100644 git/bd_d2b/content/project/internal-project/index.md
+ create mode 100644 git/bd_d2b/content/publication/_index.md
+ create mode 100644 git/bd_d2b/content/publication/conference-paper/cite.bib
+ create mode 100644 git/bd_d2b/content/publication/conference-paper/featured.jpg
+ create mode 100644 git/bd_d2b/content/publication/conference-paper/index.md
+ create mode 100644 git/bd_d2b/content/publication/journal-article/cite.bib
+ create mode 100644 git/bd_d2b/content/publication/journal-article/featured.jpg
+ create mode 100644 git/bd_d2b/content/publication/journal-article/index.md
+ create mode 100644 git/bd_d2b/content/publication/preprint/featured.jpg
+ create mode 100644 git/bd_d2b/content/publication/preprint/index.md
+ create mode 100644 git/bd_d2b/content/slides/example/index.md
+ create mode 100644 git/bd_d2b/content/talk/_index.md
+ create mode 100644 git/bd_d2b/content/talk/example/featured.jpg
+ create mode 100644 git/bd_d2b/content/talk/example/index.md
+ create mode 100644 git/bd_d2b/content/terms.md
+ create mode 100644 git/bd_d2b/index.Rmd
+ create mode 100644 git/bd_d2b/public/404.html
+ create mode 100644 git/bd_d2b/public/authors/admin/avatar.jpg
+ create mode 100644 git/bd_d2b/public/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg
+ create mode 100644 git/bd_d2b/public/authors/admin/index.html
+ create mode 100644 git/bd_d2b/public/authors/admin/index.xml
+ create mode 100644 git/bd_d2b/public/authors/index.html
+ create mode 100644 git/bd_d2b/public/authors/index.xml
+ create mode 100644 git/bd_d2b/public/authors/page/1/index.html
+ create mode 100644 git/bd_d2b/public/authors/robert-ford/index.html
+ create mode 100644 git/bd_d2b/public/authors/robert-ford/index.xml
+ create mode 100644 git/bd_d2b/public/categories/demo/index.html
+ create mode 100644 git/bd_d2b/public/categories/demo/index.xml
+ create mode 100644 git/bd_d2b/public/categories/demo/page/1/index.html
+ create mode 100644 git/bd_d2b/public/categories/index.html
+ create mode 100644 git/bd_d2b/public/categories/index.xml
+ create mode 100644 git/bd_d2b/public/categories/page/1/index.html
+ create mode 100644 git/bd_d2b/public/categories/r/index.html
+ create mode 100644 git/bd_d2b/public/categories/r/index.xml
+ create mode 100644 git/bd_d2b/public/categories/r/page/1/index.html
+ create mode 100644 git/bd_d2b/public/courses/example/example1/index.html
+ create mode 100644 git/bd_d2b/public/courses/example/example2/index.html
+ create mode 100644 git/bd_d2b/public/courses/example/index.html
+ create mode 100644 git/bd_d2b/public/courses/example/index.xml
+ create mode 100644 git/bd_d2b/public/courses/index.html
+ create mode 100644 git/bd_d2b/public/courses/index.xml
+ create mode 100644 git/bd_d2b/public/css/academic.css
+ create mode 100644 git/bd_d2b/public/css/reveal_custom.min.css
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-1950s.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-apogee.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-coffee-playfair.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-dark.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-default.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-forest.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-ocean.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-strawberry.png
+ create mode 100644 git/bd_d2b/public/home/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/img/boards.jpg
+ create mode 100644 git/bd_d2b/public/img/headers/bubbles-wide.jpg
+ create mode 100644 git/bd_d2b/public/img/hero-academic.png
+ create mode 100644 git/bd_d2b/public/img/icon-192.png
+ create mode 100644 git/bd_d2b/public/img/icon-32.png
+ create mode 100644 git/bd_d2b/public/img/icon-512.png
+ create mode 100644 git/bd_d2b/public/index.html
+ create mode 100644 git/bd_d2b/public/index.json
+ create mode 100644 git/bd_d2b/public/index.webmanifest
+ create mode 100644 git/bd_d2b/public/index.xml
+ create mode 100644 git/bd_d2b/public/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js
+ create mode 100644 git/bd_d2b/public/js/mathjax-config.js
+ create mode 100644 git/bd_d2b/public/js/vendor/reveal.js/plugin/notes/notes.html
+ create mode 100644 git/bd_d2b/public/js/vendor/reveal.js/plugin/notes/notes.js
+ create mode 100644 git/bd_d2b/public/post/2015-07-23-r-rmarkdown/index.html
+ create mode 100644 git/bd_d2b/public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 git/bd_d2b/public/post/getting-started/featured.jpg
+ create mode 100644 git/bd_d2b/public/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1200x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/post/getting-started/index.html
+ create mode 100644 git/bd_d2b/public/post/index.html
+ create mode 100644 git/bd_d2b/public/post/index.xml
+ create mode 100644 git/bd_d2b/public/post/jupyter/featured.png
+ create mode 100644 git/bd_d2b/public/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/public/post/jupyter/index.html
+ create mode 100644 git/bd_d2b/public/post/jupyter/index_1_0.png
+ create mode 100644 git/bd_d2b/public/post/page/1/index.html
+ create mode 100644 git/bd_d2b/public/post/writing-technical-content/featured.jpg
+ create mode 100644 git/bd_d2b/public/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_2560x2560_fit_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/post/writing-technical-content/index.html
+ create mode 100644 git/bd_d2b/public/privacy/index.html
+ create mode 100644 git/bd_d2b/public/project/external-project/featured.jpg
+ create mode 100644 git/bd_d2b/public/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/project/external-project/index.html
+ create mode 100644 git/bd_d2b/public/project/index.html
+ create mode 100644 git/bd_d2b/public/project/index.xml
+ create mode 100644 git/bd_d2b/public/project/internal-project/featured.jpg
+ create mode 100644 git/bd_d2b/public/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/project/internal-project/index.html
+ create mode 100644 git/bd_d2b/public/project/page/1/index.html
+ create mode 100644 git/bd_d2b/public/publication/conference-paper/cite.bib
+ create mode 100644 git/bd_d2b/public/publication/conference-paper/featured.jpg
+ create mode 100644 git/bd_d2b/public/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_lanczos_smart1.jpg
+ create mode 100644 git/bd_d2b/public/publication/conference-paper/index.html
+ create mode 100644 git/bd_d2b/public/publication/index.html
+ create mode 100644 git/bd_d2b/public/publication/index.xml
+ create mode 100644 git/bd_d2b/public/publication/journal-article/cite.bib
+ create mode 100644 git/bd_d2b/public/publication/journal-article/featured.jpg
+ create mode 100644 git/bd_d2b/public/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/publication/journal-article/index.html
+ create mode 100644 git/bd_d2b/public/publication/preprint/featured.jpg
+ create mode 100644 git/bd_d2b/public/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/publication/preprint/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/1/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/1/index.xml
+ create mode 100644 git/bd_d2b/public/publication_types/1/page/1/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/2/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/2/index.xml
+ create mode 100644 git/bd_d2b/public/publication_types/2/page/1/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/3/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/3/index.xml
+ create mode 100644 git/bd_d2b/public/publication_types/3/page/1/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/index.html
+ create mode 100644 git/bd_d2b/public/publication_types/index.xml
+ create mode 100644 git/bd_d2b/public/publication_types/page/1/index.html
+ create mode 100644 git/bd_d2b/public/sitemap.xml
+ create mode 100644 git/bd_d2b/public/slides/example/index.html
+ create mode 100644 git/bd_d2b/public/slides/index.xml
+ create mode 100644 git/bd_d2b/public/tags/academic/index.html
+ create mode 100644 git/bd_d2b/public/tags/academic/index.xml
+ create mode 100644 git/bd_d2b/public/tags/academic/page/1/index.html
+ create mode 100644 git/bd_d2b/public/tags/deep-learning/index.html
+ create mode 100644 git/bd_d2b/public/tags/deep-learning/index.xml
+ create mode 100644 git/bd_d2b/public/tags/deep-learning/page/1/index.html
+ create mode 100644 git/bd_d2b/public/tags/demo/index.html
+ create mode 100644 git/bd_d2b/public/tags/demo/index.xml
+ create mode 100644 git/bd_d2b/public/tags/demo/page/1/index.html
+ create mode 100644 git/bd_d2b/public/tags/index.html
+ create mode 100644 git/bd_d2b/public/tags/index.xml
+ create mode 100644 git/bd_d2b/public/tags/page/1/index.html
+ create mode 100644 git/bd_d2b/public/tags/plot/index.html
+ create mode 100644 git/bd_d2b/public/tags/plot/index.xml
+ create mode 100644 git/bd_d2b/public/tags/plot/page/1/index.html
+ create mode 100644 git/bd_d2b/public/tags/r-markdown/index.html
+ create mode 100644 git/bd_d2b/public/tags/r-markdown/index.xml
+ create mode 100644 git/bd_d2b/public/tags/r-markdown/page/1/index.html
+ create mode 100644 git/bd_d2b/public/tags/regression/index.html
+ create mode 100644 git/bd_d2b/public/tags/regression/index.xml
+ create mode 100644 git/bd_d2b/public/tags/regression/page/1/index.html
+ create mode 100644 git/bd_d2b/public/tags/source-themes/index.html
+ create mode 100644 git/bd_d2b/public/tags/source-themes/index.xml
+ create mode 100644 git/bd_d2b/public/tags/source-themes/page/1/index.html
+ create mode 100644 git/bd_d2b/public/talk/example/featured.jpg
+ create mode 100644 git/bd_d2b/public/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/public/talk/example/index.html
+ create mode 100644 git/bd_d2b/public/talk/index.html
+ create mode 100644 git/bd_d2b/public/talk/index.xml
+ create mode 100644 git/bd_d2b/public/terms/index.html
+ create mode 100644 git/bd_d2b/resources/_gen/assets/scss/scss/main.scss_6c95cc1249b26b124274204dbf970c34.content
+ create mode 100644 git/bd_d2b/resources/_gen/assets/scss/scss/main.scss_6c95cc1249b26b124274204dbf970c34.json
+ create mode 100644 git/bd_d2b/resources/_gen/images/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/authors/admin2/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/home/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_1200x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x0_resize_lanczos_2.png
+ create mode 100644 git/bd_d2b/resources/_gen/images/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_2560x2560_fit_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_lanczos_smart1.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/resources/_gen/images/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q90_lanczos.jpg
+ create mode 100644 git/bd_d2b/static/img/boards.jpg
+ create mode 100644 git/bd_d2b/static/img/headers/bubbles-wide.jpg
+ create mode 100644 git/bd_d2b/static/img/hero-academic.png
+ create mode 100644 git/bd_d2b/static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.editorconfig
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.github/FUNDING.yml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.github/ISSUE_TEMPLATE/bug-report.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.github/ISSUE_TEMPLATE/feature-request.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.github/PULL_REQUEST_TEMPLATE.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.github/contributing.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.github/stale.yml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.github/support.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/.gitignore
+ create mode 100644 git/bd_d2b/themes/hugo-academic/LICENSE.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/README.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/academic.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/default.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/docs.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/home.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/post/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/project/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/publication/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/slides/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/archetypes/talk/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/css/reveal.css
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/css/reveal_custom.css
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/js/academic-search.js
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/js/academic.js
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/js/algolia-search.js
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/js/mathjax-config.js
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/js/vendor/bootstrap.min.js
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_card.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_content.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_dark.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_docs.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_integrations.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_listings.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_nav.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_root.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_search.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/_widgets.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/academic/academic.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/bootstrap_variables.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/custom.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/main.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_alert.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_badge.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_breadcrumb.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_button-group.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_buttons.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_card.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_carousel.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_close.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_code.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_custom-forms.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_dropdown.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_forms.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_functions.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_grid.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_images.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_input-group.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_jumbotron.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_list-group.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_media.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_mixins.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_modal.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_nav.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_navbar.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_pagination.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_popover.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_print.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_progress.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_reboot.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_root.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_spinners.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_tables.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_toasts.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_tooltip.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_transitions.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_type.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_utilities.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/_variables.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/bootstrap-grid.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/bootstrap-reboot.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/bootstrap.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_alert.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_background-variant.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_badge.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_border-radius.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_box-shadow.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_breakpoints.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_buttons.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_caret.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_clearfix.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_deprecate.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_float.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_forms.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_gradients.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_grid-framework.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_grid.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_hover.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_image.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_list-group.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_lists.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_nav-divider.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_pagination.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_reset-text.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_resize.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_screen-reader.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_size.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_table-row.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_text-emphasis.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_text-hide.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_text-truncate.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_transition.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/mixins/_visibility.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_align.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_background.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_borders.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_clearfix.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_display.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_embed.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_flex.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_float.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_overflow.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_position.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_screenreaders.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_shadows.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_sizing.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_spacing.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_stretched-link.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_text.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/utilities/_visibility.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/assets/scss/vendor/bootstrap/vendor/_rfs.scss
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/academic.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/assets.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/fonts/classic.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/fonts/minimal.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/fonts/mr_robot.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/fonts/rose.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/i18n/languages.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/page_sharer.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/publication_types.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/1950s.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/apogee.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/coffee.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/dark.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/forest.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/minimal.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/mr_robot.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/ocean.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/rose.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/data/themes/strawberry.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/config/_default/config.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/config/_default/languages.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/config/_default/menus.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/config/_default/params.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/authors/admin/_index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/authors/admin/avatar.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/courses/_index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/courses/example/_index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/courses/example/example1.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/courses/example/example2.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/about.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/accomplishments.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/contact.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/demo.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/experience.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/featured.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-1950s.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-apogee.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-coffee-playfair.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-dark.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-default.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-forest.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-ocean.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/gallery/theme-strawberry.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/gallery/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/hero.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/people.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/posts.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/projects.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/publications.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/skills.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/slider.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/tags.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/home/talks.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/_index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/getting-started/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/getting-started/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/jupyter/featured.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/jupyter/index.ipynb
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/jupyter/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/jupyter/index_1_0.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/writing-technical-content/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/post/writing-technical-content/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/privacy.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/project/external-project/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/project/external-project/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/project/internal-project/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/project/internal-project/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/_index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/conference-paper/cite.bib
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/conference-paper/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/conference-paper/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/journal-article/cite.bib
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/journal-article/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/journal-article/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/preprint/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/publication/preprint/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/slides/example/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/talk/_index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/talk/example/featured.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/talk/example/index.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/content/terms.md
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/static/img/boards.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/static/img/headers/bubbles-wide.jpg
+ create mode 100644 git/bd_d2b/themes/hugo-academic/exampleSite/static/img/hero-academic.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/ca.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/da.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/de.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/el.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/en.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/es.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/eu.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/fr.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/hu.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/id.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/it.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/ja.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/ko.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/nl.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/pl.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/pt.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/ro.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/ru.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/tr.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/vi.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/zh-Hant.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/i18n/zh.yaml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/screenshot.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-1950s.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-apogee.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-coffee-playfair.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-cupcake.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-dark.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-default.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-forest.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-ocean.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-spacer.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/theme-strawberry.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/themes.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/images/tn.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/404.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/_default/baseof.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/_default/list.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/_default/rss.xml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/_default/single.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/authors/list.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/authors/terms.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/docs/list.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/docs/single.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/index.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/index.json
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/index.webmanifest
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/citation.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/comments.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/comments/commento.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/comments/disqus.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/cookie_consent.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/custom_head.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/custom_js.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/docs_layout.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/docs_sidebar.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/docs_toc_foot.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/functions/get_address.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/functions/get_author_name.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/functions/get_event_dates.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/functions/get_pub_types.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/functions/parse_theme.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/jsonld/article.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/jsonld/business.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/jsonld/event.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/jsonld/main.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/jsonld/website.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/li_card.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/li_citation.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/li_compact.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/li_list.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/marketing/google_analytics.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/marketing/google_tag_manager.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/navbar.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_author.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_edit.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_footer.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_header.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_links.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_links_div.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_metadata.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/page_metadata_authors.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/pagination.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/portfolio_li_card.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/portfolio_li_compact.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/portfolio_li_list.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/portfolio_li_showcase.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/search.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/section_pager.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/share.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/site_footer.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/site_head.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/site_js.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/slides.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/social_links.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/tags.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widget_page.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/about.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/accomplishments.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/blank.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/contact.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/experience.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/featured.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/featurette.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/hero.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/pages.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/people.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/portfolio.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/slider.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/partials/widgets/tag_cloud.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/project/single.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/publication/single.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/section/docs.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/section/post.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/section/publication.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/section/talk.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/alert.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/diagram.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/figure.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/fragment.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/gallery.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/gdocs.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/hl.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/list_categories.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/list_tags.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/mention.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/slide.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/speaker_note.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/staticref.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/toc.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/shortcodes/video.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/slides/baseof.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/slides/list.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/slides/single.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/talk/single.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/layouts/widget_page/single.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/netlify.toml
+ create mode 100644 git/bd_d2b/themes/hugo-academic/package-lock.json
+ create mode 100644 git/bd_d2b/themes/hugo-academic/package.json
+ create mode 100644 git/bd_d2b/themes/hugo-academic/scripts/list_language_packs.py
+ create mode 100644 git/bd_d2b/themes/hugo-academic/scripts/sync_i18n.py
+ create mode 100644 git/bd_d2b/themes/hugo-academic/scripts/update_bootstrap.sh
+ create mode 100644 git/bd_d2b/themes/hugo-academic/scripts/view_demo.sh
+ create mode 100644 git/bd_d2b/themes/hugo-academic/static/img/icon-192.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/static/img/icon-32.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/static/img/icon-512.png
+ create mode 100644 git/bd_d2b/themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.html
+ create mode 100644 git/bd_d2b/themes/hugo-academic/static/js/vendor/reveal.js/plugin/notes/notes.js
+ create mode 100644 git/bd_d2b/themes/hugo-academic/theme.toml
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git push -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': dads2busy
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://dads2busy@github.com': 
+Counting objects: 717, done.
+Delta compression using up to 20 threads.
+Compressing objects:   0% (1/631)   Compressing objects:   1% (7/631)   Compressing objects:   2% (13/631)   Compressing objects:   3% (19/631)   Compressing objects:   4% (26/631)   Compressing objects:   5% (32/631)   Compressing objects:   6% (38/631)   Compressing objects:   7% (45/631)   Compressing objects:   8% (51/631)   Compressing objects:   9% (57/631)   Compressing objects:  10% (64/631)   Compressing objects:  11% (70/631)   Compressing objects:  12% (76/631)   Compressing objects:  13% (83/631)   Compressing objects:  14% (89/631)   Compressing objects:  15% (95/631)   Compressing objects:  16% (101/631)   Compressing objects:  17% (108/631)   Compressing objects:  18% (114/631)   Compressing objects:  19% (120/631)   Compressing objects:  20% (127/631)   Compressing objects:  21% (133/631)   Compressing objects:  22% (139/631)   Compressing objects:  23% (146/631)   Compressing objects:  24% (152/631)   Compressing objects:  25% (158/631)   Compressing objects:  26% (165/631)   Compressing objects:  27% (171/631)   Compressing objects:  28% (177/631)   Compressing objects:  29% (183/631)   Compressing objects:  30% (190/631)   Compressing objects:  31% (196/631)   Compressing objects:  32% (202/631)   Compressing objects:  33% (209/631)   Compressing objects:  34% (215/631)   Compressing objects:  35% (221/631)   Compressing objects:  36% (228/631)   Compressing objects:  37% (234/631)   Compressing objects:  38% (240/631)   Compressing objects:  39% (247/631)   Compressing objects:  40% (253/631)   Compressing objects:  41% (259/631)   Compressing objects:  42% (266/631)   Compressing objects:  43% (272/631)   Compressing objects:  44% (278/631)   Compressing objects:  45% (284/631)   Compressing objects:  46% (291/631)   Compressing objects:  47% (297/631)   Compressing objects:  48% (303/631)   Compressing objects:  49% (310/631)   Compressing objects:  50% (316/631)   Compressing objects:  51% (322/631)   Compressing objects:  52% (329/631)   Compressing objects:  53% (335/631)   Compressing objects:  54% (341/631)   Compressing objects:  55% (348/631)   Compressing objects:  56% (354/631)   Compressing objects:  57% (360/631)   Compressing objects:  58% (366/631)   Compressing objects:  59% (373/631)   Compressing objects:  60% (379/631)   Compressing objects:  61% (385/631)   Compressing objects:  62% (392/631)   Compressing objects:  63% (398/631)   Compressing objects:  64% (404/631)   Compressing objects:  65% (411/631)   Compressing objects:  66% (417/631)   Compressing objects:  67% (423/631)   Compressing objects:  68% (430/631)   Compressing objects:  69% (436/631)   Compressing objects:  70% (442/631)   Compressing objects:  71% (449/631)   Compressing objects:  72% (455/631)   Compressing objects:  73% (461/631)   Compressing objects:  74% (467/631)   Compressing objects:  75% (474/631)   Compressing objects:  76% (480/631)   Compressing objects:  77% (486/631)   Compressing objects:  78% (493/631)   Compressing objects:  79% (499/631)   Compressing objects:  80% (505/631)   Compressing objects:  81% (512/631)   Compressing objects:  82% (518/631)   Compressing objects:  83% (524/631)   Compressing objects:  84% (531/631)   Compressing objects:  85% (537/631)   Compressing objects:  86% (543/631)   Compressing objects:  87% (549/631)   Compressing objects:  88% (556/631)   Compressing objects:  89% (562/631)   Compressing objects:  90% (568/631)   Compressing objects:  91% (575/631)   Compressing objects:  92% (581/631)   Compressing objects:  93% (587/631)   Compressing objects:  94% (594/631)   Compressing objects:  95% (600/631)   Compressing objects:  96% (606/631)   Compressing objects:  97% (613/631)   Compressing objects:  98% (619/631)   Compressing objects:  99% (625/631)   Compressing objects: 100% (631/631)   Compressing objects: 100% (631/631), done.
+Writing objects:   0% (1/717)   Writing objects:   1% (8/717)   Writing objects:   2% (15/717)   Writing objects:   3% (22/717)   Writing objects:   4% (29/717)   Writing objects:   5% (36/717)   Writing objects:   6% (44/717)   Writing objects:   7% (51/717)   Writing objects:   8% (58/717)   Writing objects:   9% (65/717)   Writing objects:  10% (72/717)   Writing objects:  11% (80/717)   Writing objects:  12% (88/717)   Writing objects:  13% (94/717)   Writing objects:  14% (101/717)   Writing objects:  15% (108/717)   Writing objects:  16% (115/717)   Writing objects:  17% (122/717)   Writing objects:  18% (130/717)   Writing objects:  19% (139/717)   Writing objects:  20% (145/717)   Writing objects:  21% (151/717)   Writing objects:  22% (158/717)   Writing objects:  23% (165/717)   Writing objects:  24% (173/717)   Writing objects:  25% (180/717)   Writing objects:  26% (187/717)   Writing objects:  27% (194/717)   Writing objects:  28% (201/717)   Writing objects:  29% (208/717)   Writing objects:  30% (216/717)   Writing objects:  31% (223/717)   Writing objects:  32% (230/717)   Writing objects:  33% (237/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  34% (244/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  35% (251/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  36% (259/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  37% (266/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  38% (273/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  39% (280/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  40% (287/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  41% (294/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  42% (302/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  43% (309/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  44% (316/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  45% (323/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  46% (330/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  47% (337/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  48% (345/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  49% (352/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  50% (359/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  51% (366/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  52% (373/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  53% (381/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  54% (388/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  55% (395/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  56% (402/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  57% (409/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  58% (416/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  59% (424/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  60% (431/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  61% (438/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  62% (445/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  63% (452/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  64% (459/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  65% (467/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  66% (474/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  67% (481/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  68% (488/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  69% (495/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  70% (502/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  71% (510/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  72% (517/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  73% (524/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  74% (531/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  75% (538/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  76% (545/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  77% (553/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  78% (560/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  79% (567/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  80% (575/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  81% (581/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  82% (588/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  83% (596/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  84% (603/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  85% (610/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  86% (617/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  87% (624/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  88% (631/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  89% (639/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  90% (646/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  91% (653/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  92% (660/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  93% (667/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  94% (674/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  95% (682/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  96% (689/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  97% (696/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  98% (703/717), 4.06 MiB | 7.77 MiB/s   Writing objects:  99% (710/717), 4.06 MiB | 7.77 MiB/s   Writing objects: 100% (717/717), 4.06 MiB | 7.77 MiB/s   Writing objects: 100% (717/717), 5.14 MiB | 7.77 MiB/s, done.
+Total 717 (delta 137), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/137)[Kremote: Resolving deltas:   1% (2/137)[Kremote: Resolving deltas:   2% (3/137)[Kremote: Resolving deltas:   5% (7/137)[Kremote: Resolving deltas:   6% (9/137)[Kremote: Resolving deltas:   8% (11/137)[Kremote: Resolving deltas:  10% (14/137)[Kremote: Resolving deltas:  11% (16/137)[Kremote: Resolving deltas:  12% (17/137)[Kremote: Resolving deltas:  13% (18/137)[Kremote: Resolving deltas:  14% (20/137)[Kremote: Resolving deltas:  15% (21/137)[Kremote: Resolving deltas:  17% (24/137)[Kremote: Resolving deltas:  21% (29/137)[Kremote: Resolving deltas:  23% (32/137)[Kremote: Resolving deltas:  24% (33/137)[Kremote: Resolving deltas:  25% (35/137)[Kremote: Resolving deltas:  45% (63/137)[Kremote: Resolving deltas:  51% (71/137)[Kremote: Resolving deltas:  53% (73/137)[Kremote: Resolving deltas:  65% (90/137)[Kremote: Resolving deltas:  68% (94/137)[Kremote: Resolving deltas:  74% (102/137)[Kremote: Resolving deltas:  75% (103/137)[Kremote: Resolving deltas:  76% (105/137)[Kremote: Resolving deltas:  77% (106/137)[Kremote: Resolving deltas:  78% (107/137)[Kremote: Resolving deltas:  79% (109/137)[Kremote: Resolving deltas:  80% (110/137)[Kremote: Resolving deltas:  81% (111/137)[Kremote: Resolving deltas:  82% (113/137)[Kremote: Resolving deltas:  83% (115/137)[Kremote: Resolving deltas:  91% (126/137)[Kremote: Resolving deltas:  97% (134/137)[Kremote: Resolving deltas:  98% (135/137)[Kremote: Resolving deltas:  99% (136/137)[Kremote: Resolving deltas: 100% (137/137)[Kremote: Resolving deltas: 100% (137/137), done.[K
+To https://github.com/dads2busy/bd_d2b.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ l
+total 36K
+-rw-r--r--  1 ads7fg ads7fg  224 Nov 25 15:43 bd_d2b.Rproj
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Nov 25 15:43 [0m[01;34mconfig[0m
+-rw-r--r--  1 ads7fg ads7fg 2.2K Nov 25 15:43 config.toml
+drwxr-xr-x 10 ads7fg ads7fg 4.0K Nov 25 15:43 [01;34mcontent[0m
+-rw-r--r--  1 ads7fg ads7fg   39 Nov 25 15:43 index.Rmd
+drwxr-xr-x 18 ads7fg ads7fg 4.0K Nov 25 15:45 [01;34mpublic[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Nov 25 15:43 [01;34mresources[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Nov 25 15:45 [01;34mstatic[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Nov 25 15:43 [01;34mthemes[0m
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ cd ..
+]0;/home/ads7fg/git]0;ads7fg@8a82f7ca81d2: ~/git[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git[00m$ l
+total 412K
+drwxrwxr-x  5 ads7fg ads7fg 4.0K Jun 19 19:20 [0m[01;34m2019MBDSS[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Oct 30 18:16 [01;34macpd[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Feb 27  2019 [01;34mannamaria[0m
+drwxrwxr-x  8 ads7fg ads7fg 4.0K Jun 19 16:59 [01;34mari_base_char[0m
+drwxrwxr-x  4 ads7fg ads7fg 4.0K Jun 19 17:00 [01;34mari_base_dash[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Jul  8 20:21 [01;34mari_social_media[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Feb 21  2018 [01;34marmy_survey_coding[0m
+drwxr-xr-x  9 ads7fg ads7fg 4.0K Nov 25 15:45 [01;34mbd_d2b[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Nov 25 15:43 [01;34mblogdown_dads2busy[0m
+drwxr-xr-x 10 ads7fg ads7fg 4.0K Mar 13  2019 [01;34mbusiness_innovation[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Apr  9  2019 [01;34mButtonsInDataTable[0m
+drwxr-xr-x  2 ads7fg ads7fg 4.0K Oct 29 15:22 [01;34mcaret[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Sep 15  2017 [01;34mChildCareLicensingScraper[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Apr  8  2019 [01;34mCLD3ProcessesPlatforms[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Aug  5 15:25 [01;34mconstruct_wiki[0m
+drwxrwxr-x 16 ads7fg ads7fg 4.0K Nov  6  2018 [01;34mcoordination-game[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Oct 30 20:52 [01;34mcrud[0m
+drwxr-xr-x 32 ads7fg ads7fg 4.0K Apr  1  2019 [01;34mdads2busy.github.io[0m
+drwxr-xr-x 15 ads7fg ads7fg 4.0K Mar 26  2019 [01;34mdashboard[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Feb 27  2019 [01;34mdashboard_tutorial[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Oct 25 13:25 [01;34mdataplumbr[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Apr  8  2019 [01;34mdataset_metadata[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Apr  8  2019 [01;34mdata_table_tutorial[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Jun 10 15:27 [01;34mdbmanagr[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Nov 20  2017 [01;34mdelivery_point_validation[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Feb 27  2019 [01;34mdhs_link_char[0m
+drwxr-xr-x 26 ads7fg ads7fg 4.0K Apr  2  2019 [01;34mdockerimages[0m
+drwxr-xr-x 20 ads7fg ads7fg 4.0K Jun  9  2017 [01;34mdocker_images[0m
+drwxrwxr-x 14 ads7fg ads7fg 4.0K Jun  3 14:36 [01;34mdocker_sdad[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Jun 19 19:51 [01;34mdod_ili[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Jun 13 15:02 [01;34mdotfiles[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Aug 20 16:23 [01;34mdspg19broadband[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Jun 10 18:27 [01;34mdspg19fairfax[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Dec 17  2018 [01;34mdspg2019[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Jun  5 14:49 [01;34mexamples[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Nov 28  2018 [01;34mffx_obesity[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Oct 29 16:54 [01;34mFSSDC[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Feb 27  2019 [01;34mgetGoogle[0m
+drwxr-xr-x 12 ads7fg ads7fg 4.0K Jul 24 14:51 [01;34mghtorrent.org[0m
+drwxr-xr-x  2 ads7fg ads7fg 4.0K Jun 24 17:43 [01;34mgraphql_github[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Sep 13  2017 [01;34mgridR[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Sep 17 13:21 [01;34mhugo_test[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Jun 23 17:40 [01;34miarpa_embers[0m
+drwxr-xr-x 15 ads7fg ads7fg 4.0K Oct 25 17:56 [01;34minfrastructure[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Oct 15 15:55 [01;34minfrastructure.wiki[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Oct 25 13:49 [01;34misu_data_integration[0m
+drwxrwxr-x  3 ads7fg ads7fg 4.0K Aug 18 23:24 [01;34miterative_proportional_fitting[0m
+drwxrwxr-x  6 ads7fg ads7fg 4.0K Aug  7 16:31 [01;34mjupyterhub-docker[0m
+drwxrwxr-x  2 ads7fg ads7fg 4.0K Sep  3 21:20 [01;34mkubectl-deployment-demo[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Apr 24  2019 [01;34mminerva[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Apr 25  2019 [01;34mminerva_sdad[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Oct 28 13:42 [01;34mneh_army_survey_parsing[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Feb 27  2019 [01;34mnsf_edgar[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Jan 25  2019 [01;34mopencpu_service_ci_tutorial[0m
+drwxr-xr-x 10 ads7fg ads7fg 4.0K Feb 27  2019 [01;34moss[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Mar  6  2019 [01;34moss2[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Aug 16 21:39 [01;34mOSS-Universe[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Jun 29  2018 [01;34mplumber[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Jun 18  2017 [01;34mpresentation_template_LaTeX[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Aug 18 23:25 [01;34mprobabilistic_record_linkage[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Apr  9  2019 [01;34mpsql[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Jul 22 20:05 [01;34mpublicrd[0m
+drwxr-xr-x  9 ads7fg ads7fg 4.0K Apr  3  2019 [01;34mQA_for_Admin_Data[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K May 30  2018 [01;34mrepurposing_data[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Oct 17 19:46 [01;34mrspatial_workshop[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Jun 19 16:02 [01;34mrural_broadband[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Jun 25 21:38 [01;34mrusps[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Nov 30  2017 [01;34msafr[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K May 26  2017 [01;34mSAFR_Link[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Sep 15  2017 [01;34mSAFRLink-Crypto[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Sep 15  2017 [01;34mSAFRLink-DataAdapter[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Sep 15  2017 [01;34mSAFRLink-Identity[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Jun 13  2017 [01;34mscratchpad[0m
+drwxr-xr-x 13 ads7fg ads7fg 4.0K Jun 20 13:42 [01;34msdad-data[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K May 30 14:49 [01;34msdad_lexicon[0m
+drwxrwxr-x  4 ads7fg ads7fg 4.0K Jan 29  2019 [01;34msdad-servers[0m
+drwxr-xr-x  2 ads7fg ads7fg 4.0K Dec 14  2018 [01;34msdad_website[0m
+drwxr-xr-x 13 ads7fg ads7fg 4.0K Mar 22  2019 [01;34msdal_data[0m
+drwxr-xr-x  8 ads7fg ads7fg 4.0K Nov 14  2017 [01;34msdalr[0m
+drwxr-x---  6 ads7fg ads7fg 4.0K Aug 18 22:51 [01;34msec_codes.git[0m
+drwxrwxr-x  4 ads7fg ads7fg 4.0K Aug 18 23:41 [01;34msecurejarowinkler[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Sep 15  2017 [01;34mSecureJaroWinkler[0m
+drwxrwxr-x  8 ads7fg ads7fg 4.0K May 13  2019 [01;34mShinyStudio[0m
+drwxrwxr-x  5 ads7fg ads7fg 4.0K Aug 18 23:44 [01;34msmartconnectedcommunities[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Feb 27  2019 [01;34mspatial_sf_intro[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Jun  7  2018 [01;34msql_r_introduction[0m
+drwxrwxr-x  4 ads7fg ads7fg 4.0K Aug 18 23:35 [01;34msql-server-functions[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Sep 15  2017 [01;34mSQLServerFunctions[0m
+drwxr-xr-x  9 ads7fg ads7fg 4.0K Jul  9 20:20 [01;34mstem_edu[0m
+drwxr-xr-x  9 ads7fg ads7fg 4.0K Oct 30 20:16 [01;34mstw.golem[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Oct 30 20:04 [01;34mstw-shinyapp[0m
+drwxr-xr-x  9 ads7fg ads7fg 4.0K Mar  1  2019 [01;34msubcon_loc_afford_idx[0m
+drwxr-xr-x  6 ads7fg ads7fg 4.0K Sep 15  2017 [01;34msuper-simple-sampler[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K May 24  2017 [01;34msystem-utils[0m
+drwxr-xr-x 19 ads7fg ads7fg 4.0K Sep 30 16:45 [01;34mtraining_dspg2019[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Jun  4 18:42 [01;34muva-bi-sdad.github.io[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Mar  1  2019 [01;34mvcedash[0m
+drwxrwxr-x  6 ads7fg ads7fg 4.0K Oct 30 15:53 [01;34mvecf_counts[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Jan 30  2019 [01;34mvecf_counts_old[0m
+drwxr-xr-x  5 ads7fg ads7fg 4.0K Oct 30  2017 [01;34mVLDS_Data_Quality[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Jan 17  2019 [01;34mvlds_dq[0m
+drwxr-xr-x  9 ads7fg ads7fg 4.0K Jul 25  2018 [01;34mvt_metrics[0m
+drwxr-xr-x  7 ads7fg ads7fg 4.0K Oct 17 20:14 [01;34mWater-Quality-Data-Analysis-Tool[0m
+]0;/home/ads7fg/git]0;ads7fg@8a82f7ca81d2: ~/git[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git[00m$ cd bd_d2b/
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ l
+total 36K
+-rw-r--r--  1 ads7fg ads7fg  224 Nov 25 15:43 bd_d2b.Rproj
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Nov 25 15:43 [0m[01;34mconfig[0m
+-rw-r--r--  1 ads7fg ads7fg 2.2K Nov 25 15:43 config.toml
+drwxr-xr-x 10 ads7fg ads7fg 4.0K Nov 25 15:43 [01;34mcontent[0m
+-rw-r--r--  1 ads7fg ads7fg   39 Nov 25 15:43 index.Rmd
+drwxr-xr-x 18 ads7fg ads7fg 4.0K Nov 25 15:45 [01;34mpublic[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Nov 25 15:43 [01;34mresources[0m
+drwxr-xr-x  4 ads7fg ads7fg 4.0K Nov 25 15:45 [01;34mstatic[0m
+drwxr-xr-x  3 ads7fg ads7fg 4.0K Nov 25 15:43 [01;34mthemes[0m
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ ls -la
+total 48
+drwxr-xr-x   9 ads7fg ads7fg 4096 Nov 25 15:45 [0m[01;34m.[0m
+drwxr-xr-x 105 ads7fg ads7fg 4096 Nov 25 15:43 [01;34m..[0m
+-rw-r--r--   1 ads7fg ads7fg  224 Nov 25 15:43 bd_d2b.Rproj
+drwxr-xr-x   3 ads7fg ads7fg 4096 Nov 25 15:43 [01;34mconfig[0m
+-rw-r--r--   1 ads7fg ads7fg 2187 Nov 25 15:43 config.toml
+drwxr-xr-x  10 ads7fg ads7fg 4096 Nov 25 15:43 [01;34mcontent[0m
+-rw-r--r--   1 ads7fg ads7fg   39 Nov 25 15:43 index.Rmd
+drwxr-xr-x  18 ads7fg ads7fg 4096 Nov 25 15:45 [01;34mpublic[0m
+drwxr-xr-x   3 ads7fg ads7fg 4096 Nov 25 15:43 [01;34mresources[0m
+drwxr-xr-x   4 ads7fg ads7fg 4096 Nov 25 15:43 [01;34m.Rproj.user[0m
+drwxr-xr-x   4 ads7fg ads7fg 4096 Nov 25 15:45 [01;34mstatic[0m
+drwxr-xr-x   3 ads7fg ads7fg 4096 Nov 25 15:43 [01;34mthemes[0m
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git init
+Initialized empty Git repository in /home/ads7fg/git/bd_d2b/.git/
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git init[2Pls -la[Kcd bd_d2b/l[Kcd ..l[Kgit push -u origin master[Kcommit -m "first commit"status[Kadd -A .push -u origin masterremote add origin https://github.com/dads2busy/bd_d2b.git
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git remote add origin https://github.com/dads2busy/bd_d2b.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[K[2Pls -la[Kcd bd_d2b/l[Kcd ..l[Kgit push -u origin master[Kcommit -m "first commit"status[Kadd -A .
