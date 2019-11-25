@@ -1,0 +1,19 @@
+---
+title: my first post
+author: Aaron Schroeder
+date: '2019-11-25'
+slug: my-first-post
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-11-25T17:52:26Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+A first post
