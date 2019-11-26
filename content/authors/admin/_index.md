@@ -16,6 +16,7 @@ education:
     year: 1991
 email: "ads7fg@virginia.edu"
 interests:
+- Repurposing Administrative Data
 - Data Science Education
 - Record Linkage
 - Information Architecture
