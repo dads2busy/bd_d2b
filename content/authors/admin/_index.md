@@ -5,7 +5,7 @@ bio: My research interests include data science education, secure record linkage
   matter.
 education:
   courses:
-  - course: PhD in Ph.D. in Public Policy & Administration
+  - course: Ph.D. in Public Policy & Administration
     institution: Virginia Tech University
     year: 2001
   - course: M.P.A. in Public Administration
