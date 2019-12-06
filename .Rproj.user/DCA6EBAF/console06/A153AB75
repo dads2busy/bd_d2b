@@ -1136,3 +1136,35 @@ nothing to commit, working tree clean
 Everything up-to-date
 ]0;/home/ads7fg/git/bd_d2b/public]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b/public[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b/public[00m$ [K]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b/public[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b/public[00m$ cd ..
 ]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ cd ..git pushcommit -m "hmmm"[8Padd -A .
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git add -A .[7Pcd ..git pushcommit -m "hmmm"
+[master 04e3039] hmmm
+ 4 files changed, 54 insertions(+), 42 deletions(-)
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ git commit -m "hmmm"[8Padd -A .[7Pcd ..git push
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': dads2busy
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://dads2busy@github.com': 
+Counting objects: 12, done.
+Delta compression using up to 20 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 2.58 KiB | 0 bytes/s, done.
+Total 12 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 7 local objects.[K
+To https://github.com/dads2busy/bd_d2b.git
+   2d976e7..04e3039  master -> master
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ cd public/
+]0;/home/ads7fg/git/bd_d2b/public]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b/public[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b/public[00m$ cd public/[2Pgit pushcommit -m "hmmm"[8Padd -A .
+]0;/home/ads7fg/git/bd_d2b/public]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b/public[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b/public[00m$ git add -A .[2Pcd public/[2Pgit pushcommit -m "hmmm"
+[master f45198d] hmmm
+ 1 file changed, 11 insertions(+), 21 deletions(-)
+]0;/home/ads7fg/git/bd_d2b/public]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b/public[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b/public[00m$ git commit -m "hmmm"[8Padd -A .[2Pcd public/[2Pgit push
+Counting objects: 3, done.
+Delta compression using up to 20 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 1.09 KiB | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/dads2busy/dads2busy.github.com.git
+   dfd27e4..f45198d  master -> master
+]0;/home/ads7fg/git/bd_d2b/public]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b/public[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b/public[00m$ cd ../
+]0;/home/ads7fg/git/bd_d2b]0;ads7fg@8a82f7ca81d2: ~/git/bd_d2b[01;32mads7fg@8a82f7ca81d2[00m:[01;34m~/git/bd_d2b[00m$ cd ../git pushcommit -m "hmmm"[8Padd -A .
