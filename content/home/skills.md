@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = ""
+subtitle = "Additional Specialized Training & Technical Skills"
 
 # Showcase personal skills or business features.
 # 
@@ -18,18 +18,85 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
+
+[[feature]]
+  icon = "globe-americas"
+  icon_pack = "fas"
+  name = "GIS"
+
+[[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Linux Server"
+  
+[[feature]]
+  icon = "docker"
+  icon_pack = "fab"
+  name = "Docker"
+  
+[[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+  
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "PostgreSQL"
+  
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "SQL Server"
+  
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "Oracle"
+  
+[[feature]]
+  icon = "code"
+  icon_pack = "fas"
+  name = "ASP.NET C#"
+
+[[feature]]
+  icon = "code"
+  icon_pack = "fas"
+  name = "Cold Fusion"
+
+[[feature]]
+  icon = "java"
+  icon_pack = "fab"
+  name = "JavaEE"
+
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "SAS"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "SPSS"
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "html5"
+  icon_pack = "fab"
+  name = "HTML"
+
+[[feature]]
+  icon = "css3-alt"
+  icon_pack = "fab"
+  name = "CSS"
+
+[[feature]]
+  icon = "network-wired"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Cisco"
+
+[[feature]]
+  icon = "adobe"
+  icon_pack = "fab"
+  name = "Photoshop"
 
 +++

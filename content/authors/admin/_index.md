@@ -21,6 +21,7 @@ interests:
 - Record Linkage
 - Information Architecture
 - Evidence-Based Policy
+- Information Privacy Law & Policy
 name: Aaron D. Schroeder
 organizations:
 - name: "University of Virginia"
